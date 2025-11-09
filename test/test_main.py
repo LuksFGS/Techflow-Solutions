@@ -27,4 +27,3 @@ def test_marcar_todas_como_concluidas(tmp_path):
     tarefas = app.carregar_tarefas()
 
     assert all(t["status"] == "Concluída" for t in tarefas)
-a
